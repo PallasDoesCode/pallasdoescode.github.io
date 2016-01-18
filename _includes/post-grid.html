@@ -1,0 +1,24 @@
+<article itemscope itemtype="http://schema.org/Article">
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                <a class="btn btn-success pull-right" type="button" role="button">Read More</a>
+            </div>
+            <div class="panel-footer text-center">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <span class="comments"><i class="fa fa-comment disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></i></span>
+                    </div>
+                    <div class="col-sm-4">
+                        &nbsp;
+                    </div>
+                    <div class="col-sm-5">
+                        <span class="publish-date"><i class="fa fa-calendar"></i> {{ post.date | date: "%m/%d/%Y" }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

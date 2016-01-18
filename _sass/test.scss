@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Navigation Menu
+   ========================================================================== */
+
+nav
+{
+  font-family: Raleway, sans-serif
+}
+
+/* ==========================================================================
+   About Section
+   ========================================================================== */
+
+#about > .container > img
+{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Blog Section
+   ========================================================================== */
+
+#blog
+{
+  background-color: #484848;
+}
+
+#blog > div > div > div > .panel > .panel-body
+{
+  padding: 10px 15px 15px;
+}
+
+h3
+{
+  font-family: 'Alegreya Sans SC';
+}
+
+/* ==========================================================================
+   Footer Section
+   ========================================================================== */
+
+footer
+{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #1F2C37;
+}
+
+.social
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.social li
+{
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 3px;
+  box-shadow: 0 4px 0 transparent;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.social li a
+{
+  display: block;
+  background: rgba(0, 0, 0, 0.2); /* 20% black */
+  color: rgba(255,255,255,0.3);
+  font-size: 21px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all .3s ease-out;
+}
+
+.social li a:hover
+{
+
+  color: #FFFFFF;
+}
+
+footer > .container > p
+{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ==========================================================================
+   Miscellaneous
+   ========================================================================== */
+
+body
+{
+  margin: 0;
+  padding: 70px 0px 0px 0px;
+  font-family: sans-serif;
+}
+
+section
+{
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.share-btn
+{
+    display: inline-block;
+	padding: 8px 20px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	border: 0 !important;
+}

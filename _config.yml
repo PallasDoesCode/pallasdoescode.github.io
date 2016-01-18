@@ -1,0 +1,36 @@
+# Site wide configuration
+
+title: Tyler Hughes
+description: A simple portfolio and blog
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+url: http://tylerhughes.info
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /archive/:year/:month/:day/:title/
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Tyler Hughes
+  twitter: thughesIT
+  avatar: avatar.jpg # 160x160 px image for author byline
+  disqus-shortname: randomlyknighted
+
+author:
+  twitter:      thughesIT
+  google_plus:  randomlyknighted
+
+
+include: ['_pages']
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
