@@ -14,8 +14,7 @@ sass:
     style: compressed
 permalink: /archive/:year/:month/:day/:title/
 markdown: kramdown
-redcarpet:
-  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+highlighter: rouge
 gems:
   - jekyll-sitemap
 
