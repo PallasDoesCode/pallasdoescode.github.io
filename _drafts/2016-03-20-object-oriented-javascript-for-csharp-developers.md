@@ -121,5 +121,6 @@ You probably noticed in the C# snippet we still have a public method, but we als
 
 
 **Items left to cover**
+
 1. Using this. for public method
 2. readMileage not accessible from outside the constructor funciton
