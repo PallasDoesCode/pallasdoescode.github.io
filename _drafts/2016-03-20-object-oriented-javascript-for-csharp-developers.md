@@ -119,5 +119,7 @@ Now like everything in programming there's always more than one way to do someth
 
 You probably noticed in the C# snippet we still have a public method, but we also have private method. The C# snipet is pretty self explanatory, but the JavaScript uses a few things that we have yet to talk about.
 
-using this. for public method
-readMileage not accessible from outside the constructor funciton
+
+**Items left to cover**
+1. Using this. for public method
+2. readMileage not accessible from outside the constructor funciton
