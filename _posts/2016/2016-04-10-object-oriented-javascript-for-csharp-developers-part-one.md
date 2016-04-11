@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Object Oriented JavaScript for C# Developers"
-date: 2016-03-20 08:28:14
+title: "Object Oriented JavaScript for C# Developers Part One"
+date: 2016-04-10 06:57:03
 comments: true
-categories: [OOP, JavaScript]
+categories: [JavaScript, OOP]
 ---
 
 A few months ago, while talking to [Sayed Hashimi from Microsoft](https://twitter.com/sayedihashimi) about my future as a developer, he recommended that one of the best things I can do would be to setup a blog. In order to get started, he recommended that I check out [Miniblog](https://github.com/madskristensen/MiniBlog). It's a blogging engine developed by [Mads Kristensen](https://twitter.com/mkristensen). If you haven't heard of Miniblog it is a minimalistic blogging engine developed using ASP.NET. In order to have a WYSIYWG editor for Miniblog, Mads used the [bootstrap-wysiwyg project](https://github.com/steveathon/bootstrap-wysiwyg). Being somewhat new to the web development world, one of my goals was to learn more about WYSIWYG editors and how they work so that I might someday be able to do some freelance work building websites for companies. So I took this opportunity and started digging through the project's source code.
@@ -68,59 +68,4 @@ If you're like me and come from a class-based language then you're probably used
 
 As you can see from the C# snippet we have a class called Animal and two public methods, eat and sleep. In the JavaScript snippet we just have three functions and you may be wondering how this is the equivalent to the class we saw before. Well as I was stating before JavaScript is not a traditional class based language, it follows a prototype approach to object oriented programming. That's why you see the keyword prototype when creating these public functions. We have Animal as our class name and then we have eat and sleep are out method names. By putting eat and sleep on the prototype for the Animal class we make these methods accessible to any instance of the Animal class.
 
-Now like everything in programming there's always more than one way to do something. So let's take a look at another way to create methods. Again we'll start with a C# snippet followed by it's JavaScript equivalent.
-
-**C#**
-
-```csharp
-
-    public class Car {
-
-        private int _mileage;
-
-        public Car() {
-        }
-
-        private int readMileage() {
-            return _mileage;
-        }
-
-        public void drive( miles ) {
-            _mileage += miles;
-        }
-    }
-
-    var ford = new Car();
-    ford.drive();
-```
-
-**JavaScript**
-
-```js
-
-    function Car() {
-
-        var _mileage = 0;
-
-        // private method
-        var readMileage = function() {
-            return _mileage;
-        };
-
-        // public method
-        this.drive = function( miles ) {
-            _mileage += miles;
-        };
-    }
-
-    var ford = new Car();
-    ford.drive();
-```
-
-You probably noticed in the C# snippet we still have a public method, but we also have private method. The C# snipet is pretty self explanatory, but the JavaScript uses a few things that we have yet to talk about.
-
-
-**Items left to cover**
-
-1. Using this. for public method
-2. readMileage not accessible from outside the constructor funciton
+Now like everything in programming there's always more than one way to do something. Next time we'll expand on what we've learned today by looking at an example containing both public and private methods.
