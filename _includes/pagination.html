@@ -1,15 +1,15 @@
-<nav class="pagination">
-  {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-  {% for post in site.categories.[category_name] %}
-    {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
+<nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a rel="prev" class="posts newer btn small" href="{{ "#blog" | prepend: site.baseurl }}" title="Previous Page">← Newer Posts</a>
+    {% else %}
+      <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}page{{ paginator.previous_page }}/">← Newer Posts</a>
     {% endif %}
-  {% endfor %}
-  {% for post in site.categories.[category_name] %}
-    {% if post_index0 == forloop.index %}{% assign next_post = post %}{% endif %}
-    {% if post_index1 == forloop.index0 %}{% assign prev_post = post %}{% endif %}
-  {% endfor %}
-  {% if prev_post %}<a class="prev" href="{{ site.url }}{{ prev_post.url }}">{{ prev_post.title }}</a>{% endif %}
-  {% if next_post %}<a class="next" href="{{ site.url }}{{ next_post.url }}">{{ next_post.title }}</a>{% endif %}
+  {% endif %}
+
+  <span class="pagination__page-number">Page {{ paginator.page}} of {{ paginator.total_pages}}</span>
+
+  {% if paginator.next_page %}
+    <a rel="next" class="posts older btn small" href="{{ site.baseurl }}page{{ paginator.next_page }}/">Older Posts →</a>
+  {% endif %}
 </nav>
