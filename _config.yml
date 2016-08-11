@@ -1,8 +1,8 @@
 # Site settings
 title: Tyler Hughes
-description: "A simple portfolio and blog"
+description: "Developer, sailor, and nature enthusiast"
 url: "http://tylerhughes.info"
-baseurl: ""
+baseurl: "/"
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: "randomlyknighted"
 
