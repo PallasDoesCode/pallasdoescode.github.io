@@ -9,7 +9,7 @@ Lately, I've been learning and familiarizing myself with the code in a project c
 
 Now when I say I had to install and use Bower, I don't mean I was forced to use it. At this point I had never used, but had heard good things about it from other developers. Seeing it used in this project, I took the opportunity to learn try it out. This post is will talk about what Bower is and how we can install it within our environment. At some point after I've used it for a while I may come back and write a follow up article to explain how Bower works and share my experiences while using it.
 
-###So what is Bower?
+### So what is Bower?
 
 For those of you who may not know, [Bower](http://bower.io/) is a tool that helps manage your third-party libraries within your web project. Generally when starting a project I'd have to go to the website of the library I planned to use, download the files, extract (or copy) them to my project folder, then repeat for each additional library. By using Bower I can install all the libraries I plan to use with just a few simple commands in a command prompt (or in my case a PowerShell window). This is what makes Bower attractive to developers. It can definitely speed up your setup time for a new project and even aide you with keeping your project libraries up to date.
 
