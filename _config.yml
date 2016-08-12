@@ -3,7 +3,7 @@ title: Tyler Hughes
 description: "Developer, sailor, and nature enthusiast"
 url: "http://tylerhughes.info"
 baseurl: "/"
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: "UA-69191020-1"
 disqus_shortname: "randomlyknighted"
 
 author:
