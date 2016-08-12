@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "An Article from MSDN Magazine on SideWaffle"
 date: 2015-06-07 21:12:45
 comments: true

@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "As A New Developer"
 date: 2016-02-07 10:36:00
 comments: true

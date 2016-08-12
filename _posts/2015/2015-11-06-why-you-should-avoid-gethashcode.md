@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Why You Should Avoid GetHashCode"
 date: 2015-11-06 01:20:56
 comments: true

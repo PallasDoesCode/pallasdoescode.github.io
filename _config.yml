@@ -1,37 +1,37 @@
-# Site wide configuration
-
+# Site settings
 title: Tyler Hughes
-description: A simple portfolio and blog
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
-url: http://tylerhughes.info
+description: "Developer, sailor, and nature enthusiast"
+url: "http://tylerhughes.info"
+baseurl: "/"
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: "randomlyknighted"
 
-# Jekyll configuration
+author:
+  name: "Tyler Hughes"
+  twitter_username: thughesIT
+  github_username:  randomlyknighted
+  linkedin_username:  thughes01
 
-sass:
-    sass_dir: _sass
-    style: compressed
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        layout: "post"
+
+# Build settings
+destination: _site
+paginate: 10
 permalink: /archive/:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
-kramdown: GFM
-hard_wrap: false
-gems:
-  - jekyll-sitemap
 
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-# Site owner
-owner:
-  name: Tyler Hughes
-  twitter: thughesIT
-  avatar: avatar.jpg # 160x160 px image for author byline
-  disqus-shortname: randomlyknighted
-
-author:
-  twitter:      thughesIT
-  google_plus:  randomlyknighted
-
-
-include: ['_pages']
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+gems: ["jekyll-paginate"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "screenshot.png"]

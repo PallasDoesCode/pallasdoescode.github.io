@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "GulpJS, another JavaScript Task Runner"
 date: 2015-10-18 01:53:22
 comments: true

@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Installing a NuGet package programmatically"
 date: 2015-05-06 01:14:49
 comments: true

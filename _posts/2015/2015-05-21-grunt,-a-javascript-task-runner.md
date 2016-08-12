@@ -1,12 +1,11 @@
 ---
-layout: article
 title: "Grunt, a JavaScript Task Runner"
 date: 2015-05-21 03:21:50
 comments: true
 categories: [front-end, web development]
 ---
 
-###What is Grunt?
+### What is Grunt?
 
 Grunt is a command line task runner, built on top of Node.js, designed for JavaScript projects. It was created as a means to automate repetitive tasks in order to make them minor. You may be thinking at this point, “Well that sounds great, but what can Grunt do for me?” A few of the common tasks that developers use Grunt for include:
 
@@ -16,7 +15,7 @@ Grunt is a command line task runner, built on top of Node.js, designed for JavaS
 
 However, it is can also do much more as well.
 
-###How to install Grunt
+### How to install Grunt
 
 Before we get started with Grunt, we first need to install a few things.
 
@@ -39,7 +38,7 @@ npm install grunt –save-dev
 
 This command installs grunt into whichever directory we are currently working. This allows us to have multiple instances of grunt (with their own version) installed throughout the system without causing problems with other projects.
 
-###Working with Grunt
+### Working with Grunt
 
 Now that we have Grunt installed, we can look at a generic grunt file. In your project, you will need to create a file called gruntfile.js. This file is where you will call the Grunt modules that you wish to use in your project. Before we get started creating our grunt file, we will need to install all the modules that we plan to use. Thanks to Node.js this is fairly straight forward. Once again we will open a command prompt and run the following single command, replacing <package name> with the name of the actual module you will be using.
 
@@ -65,7 +64,7 @@ As you can see in this snippet, the grunt.initConfig function is initializes aut
 
 The next line in the snippet loads the modules we are using. Unless you making a simple grunt file, you can expect to use this line many times in your file. Last, we want to register our task. When Grunt runs, it automatically searches for a task called default and executes that first. It then executes each of the tasks listed in the array shown on this line.
 
-###A basic example of how Grunt can help you
+### A basic example of how Grunt can help you
 
 In order to give you an idea what a grunt file might look like in its simplest form I have created the following sample grunt file.
 

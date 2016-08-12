@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Welcome to Microsoft Azure"
 date: 2015-08-21 02:01:00
 comments: true

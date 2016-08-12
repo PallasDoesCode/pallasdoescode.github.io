@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Object Oriented JavaScript for C# Developers - Part One"
 date: 2016-04-10 06:57:03
 comments: true
