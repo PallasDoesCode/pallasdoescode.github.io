@@ -1,4 +1,4 @@
-# randomlyknighted.github.io
+# tylerbhughes.github.io
 
 This site was built using [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno), a minimal, responsive theme for Jekyll. Jekyll-Uno was built by [Josh Gerdes](http://joshgerdes.com/).
 
