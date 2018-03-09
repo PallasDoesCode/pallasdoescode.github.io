@@ -1,6 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
-*.sublime-project
-*.sublime-workspace
-.DS_Store
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
