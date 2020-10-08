@@ -1,18 +1,33 @@
-- name: Example 1
-  url: https://github.com
-  description: Override the digital divide with additional clickthroughs from DevOps. User generated content in real-time will have multiple touchpoints for offshoring.
+- name: Weather.js
+  url: https://github.com/noazark/weather
+  description: Weather.js was designed to be a conclusive JavaScript weather library built around the OpenWeatherMap API (no affiliation). Since other providers format their output differently, currently OpenWeatherMap is the only source provider.
   status: in progress
   tags:
     - JavaScript
-    - Gatsby
+    - NodeJS
+    - Jest
+    - HTML
+    - CSS
   icon: github
 
-- name: Example 2
-  url: https://github.com
-  description: Leverage agile frameworks to provide a robust synopsis for high level overviews.
+- name: openHuntsville
+  url: https://github.com/urbanengine/OpenHuntsville
+  description: openHuntsville is an open source membership and meeting platform built for a local non-profit called Urban Engine. Each week Urban Engine hosts a mini-conference called CoWorking Night. Here, at CoWorking Night, a series of professional development workshops are held by local experts in their field. These workshops are scheduling using the openHuntsville platform.
   status: live
   tags:
     - JavaScript
     - HTML
-  icon: website
-  image: images/project.jpg
+    - CSS
+    - Ruby
+  icon: github
+
+- name: SideWaffle
+  url: https://github.com/ligershark/side-waffle
+  description: SideWaffle is an extension for Visual Studio that adds snippets, project and item templates. Its purpose is to make your daily work in Visual Studio a richer and more productive experience.
+  status: live
+  tags:
+    - JavaScript
+    - HTML
+    - CSS
+    - C#
+  icon: github
