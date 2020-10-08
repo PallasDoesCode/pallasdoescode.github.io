@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "tyler-pallas-media",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A portfolio page for Pallas Media founder Tyler Hughes",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@wkocjan/gatsby-theme-intro": "^1.0.14",
     "gatsby": "^2.24.67",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -23,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/PallasStreams/tyler.pallasmedia.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/PallasStreams/tyler.pallasmedia.com/issues"
   }
 }
